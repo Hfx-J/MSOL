@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "SGGL: 1 messages, 0 services")
+message(STATUS "msol: 1 messages, 0 services")
 
 set(MSG_I_FLAGS "-ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -19,7 +19,7 @@ add_custom_target(SGGL_generate_messages ALL)
 
 get_filename_component(_filename "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg" NAME_WE)
 add_custom_target(_SGGL_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "SGGL" "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "msol" "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg" ""
 )
 
 #
@@ -28,18 +28,18 @@ add_custom_target(_SGGL_generate_messages_check_deps_${_filename}
 
 ### Section generating for lang: gencpp
 ### Generating Messages
-_generate_msg_cpp(SGGL
+_generate_msg_cpp(msol
   "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/SGGL
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/msol
 )
 
 ### Generating Services
 
 ### Generating Module File
-_generate_module_cpp(SGGL
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/SGGL
+_generate_module_cpp(msol
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/msol
   "${ALL_GEN_OUTPUT_FILES_cpp}"
 )
 
@@ -61,18 +61,18 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS SGGL_generate_messages_cpp)
 
 ### Section generating for lang: geneus
 ### Generating Messages
-_generate_msg_eus(SGGL
+_generate_msg_eus(msol
   "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/SGGL
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/msol
 )
 
 ### Generating Services
 
 ### Generating Module File
-_generate_module_eus(SGGL
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/SGGL
+_generate_module_eus(msol
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/msol
   "${ALL_GEN_OUTPUT_FILES_eus}"
 )
 
@@ -94,18 +94,18 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS SGGL_generate_messages_eus)
 
 ### Section generating for lang: genlisp
 ### Generating Messages
-_generate_msg_lisp(SGGL
+_generate_msg_lisp(msol
   "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/SGGL
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/msol
 )
 
 ### Generating Services
 
 ### Generating Module File
-_generate_module_lisp(SGGL
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/SGGL
+_generate_module_lisp(msol
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/msol
   "${ALL_GEN_OUTPUT_FILES_lisp}"
 )
 
@@ -127,18 +127,18 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS SGGL_generate_messages_lisp)
 
 ### Section generating for lang: gennodejs
 ### Generating Messages
-_generate_msg_nodejs(SGGL
+_generate_msg_nodejs(msol
   "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/SGGL
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/msol
 )
 
 ### Generating Services
 
 ### Generating Module File
-_generate_module_nodejs(SGGL
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/SGGL
+_generate_module_nodejs(msol
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/msol
   "${ALL_GEN_OUTPUT_FILES_nodejs}"
 )
 
@@ -160,18 +160,18 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS SGGL_generate_messages_nodejs)
 
 ### Section generating for lang: genpy
 ### Generating Messages
-_generate_msg_py(SGGL
+_generate_msg_py(msol
   "/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg"
   "${MSG_I_FLAGS}"
   ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/SGGL
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/msol
 )
 
 ### Generating Services
 
 ### Generating Module File
-_generate_module_py(SGGL
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/SGGL
+_generate_module_py(msol
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/msol
   "${ALL_GEN_OUTPUT_FILES_py}"
 )
 
@@ -193,10 +193,10 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS SGGL_generate_messages_py)
 
 
 
-if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/SGGL)
+if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/msol)
   # install generated code
   install(
-    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/SGGL
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/msol
     DESTINATION ${gencpp_INSTALL_DIR}
   )
 endif()
@@ -204,10 +204,10 @@ if(TARGET geometry_msgs_generate_messages_cpp)
   add_dependencies(SGGL_generate_messages_cpp geometry_msgs_generate_messages_cpp)
 endif()
 
-if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/SGGL)
+if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/msol)
   # install generated code
   install(
-    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/SGGL
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/msol
     DESTINATION ${geneus_INSTALL_DIR}
   )
 endif()
@@ -215,10 +215,10 @@ if(TARGET geometry_msgs_generate_messages_eus)
   add_dependencies(SGGL_generate_messages_eus geometry_msgs_generate_messages_eus)
 endif()
 
-if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/SGGL)
+if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/msol)
   # install generated code
   install(
-    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/SGGL
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/msol
     DESTINATION ${genlisp_INSTALL_DIR}
   )
 endif()
@@ -226,10 +226,10 @@ if(TARGET geometry_msgs_generate_messages_lisp)
   add_dependencies(SGGL_generate_messages_lisp geometry_msgs_generate_messages_lisp)
 endif()
 
-if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/SGGL)
+if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/msol)
   # install generated code
   install(
-    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/SGGL
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/msol
     DESTINATION ${gennodejs_INSTALL_DIR}
   )
 endif()
@@ -237,11 +237,11 @@ if(TARGET geometry_msgs_generate_messages_nodejs)
   add_dependencies(SGGL_generate_messages_nodejs geometry_msgs_generate_messages_nodejs)
 endif()
 
-if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/SGGL)
-  install(CODE "execute_process(COMMAND \"/usr/bin/python3\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/SGGL\")")
+if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/msol)
+  install(CODE "execute_process(COMMAND \"/usr/bin/python3\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/msol\")")
   # install generated code
   install(
-    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/SGGL
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/msol
     DESTINATION ${genpy_INSTALL_DIR}
   )
 endif()

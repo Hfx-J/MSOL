@@ -8,8 +8,10 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/beabbit/study_space/HL_BPR/MSOL/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/local/cuda-11.3/lib64'
+export LD_LIBRARY_PATH='/home/beabbit/study_space/HL_BPR/MSOL/devel/lib:/opt/ros/noetic/lib:/usr/local/cuda-11.3/lib64'
 export PATH='/opt/ros/noetic/bin:/usr/local/cuda-11.3/bin:/home/beabbit/anaconda3/bin:/home/beabbit/anaconda3/bin:/home/beabbit/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PKG_CONFIG_PATH="/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/beabbit/study_space/HL_BPR/MSOL/build'
+export PYTHONPATH="/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/home/beabbit/study_space/HL_BPR/MSOL/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/beabbit/study_space/HL_BPR/MSOL/src:$ROS_PACKAGE_PATH"

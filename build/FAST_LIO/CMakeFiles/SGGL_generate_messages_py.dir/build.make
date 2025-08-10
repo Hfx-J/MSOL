@@ -66,22 +66,22 @@ include FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/compiler_depend.make
 # Include the progress variables for this target.
 include FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/progress.make
 
-FAST_LIO/CMakeFiles/SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/_Pose6D.py
-FAST_LIO/CMakeFiles/SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/__init__.py
+FAST_LIO/CMakeFiles/SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/_Pose6D.py
+FAST_LIO/CMakeFiles/SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/__init__.py
 
-/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/_Pose6D.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/_Pose6D.py: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG SGGL/Pose6D"
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p SGGL -o /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg
+/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/_Pose6D.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/_Pose6D.py: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG msol/Pose6D"
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p msol -o /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg
 
-/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/__init__.py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/_Pose6D.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for SGGL"
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg --initpy
+/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/__init__.py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/_Pose6D.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for msol"
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg --initpy
 
 SGGL_generate_messages_py: FAST_LIO/CMakeFiles/SGGL_generate_messages_py
-SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/_Pose6D.py
-SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/__init__.py
+SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/_Pose6D.py
+SGGL_generate_messages_py: /home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/__init__.py
 SGGL_generate_messages_py: FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/build.make
 .PHONY : SGGL_generate_messages_py
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/_Pose6D.py"
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/SGGL/msg/__init__.py"
+  "/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/_Pose6D.py"
+  "/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/python3/dist-packages/msol/msg/__init__.py"
   "CMakeFiles/SGGL_generate_messages_py"
 )
 

@@ -1,22 +1,22 @@
 ;; Auto-generated. Do not edit!
 
 
-(when (boundp 'SGGL::Pose6D)
-  (if (not (find-package "SGGL"))
-    (make-package "SGGL"))
-  (shadow 'Pose6D (find-package "SGGL")))
-(unless (find-package "SGGL::POSE6D")
-  (make-package "SGGL::POSE6D"))
+(when (boundp 'msol::Pose6D)
+  (if (not (find-package "msol"))
+    (make-package "msol"))
+  (shadow 'Pose6D (find-package "msol")))
+(unless (find-package "msol::POSE6D")
+  (make-package "msol::POSE6D"))
 
 (in-package "ROS")
 ;;//! \htmlinclude Pose6D.msg.html
 
 
-(defclass SGGL::Pose6D
+(defclass msol::Pose6D
   :super ros::object
   :slots (_offset_time _acc _gyr _vel _pos _rot ))
 
-(defmethod SGGL::Pose6D
+(defmethod msol::Pose6D
   (:init
    (&key
     ((:offset_time __offset_time) 0.0)
@@ -124,9 +124,9 @@
    self)
   )
 
-(setf (get SGGL::Pose6D :md5sum-) "ab486e9c24704038320abf9ff59003d2")
-(setf (get SGGL::Pose6D :datatype-) "SGGL/Pose6D")
-(setf (get SGGL::Pose6D :definition-)
+(setf (get msol::Pose6D :md5sum-) "ab486e9c24704038320abf9ff59003d2")
+(setf (get msol::Pose6D :datatype-) "msol/Pose6D")
+(setf (get msol::Pose6D :definition-)
       "# the preintegrated Lidar states at the time of IMU measurements in a frame
 float64  offset_time # the offset time of IMU measurement w.r.t the first lidar point
 float64[3] acc       # the preintegrated total acceleration (global frame) at the Lidar origin
@@ -138,6 +138,6 @@ float64[9] rot       # the preintegrated rotation (global frame) at the Lidar or
 
 
 
-(provide :SGGL/Pose6D "ab486e9c24704038320abf9ff59003d2")
+(provide :msol/Pose6D "ab486e9c24704038320abf9ff59003d2")
 
 

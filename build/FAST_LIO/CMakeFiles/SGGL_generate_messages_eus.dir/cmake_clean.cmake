@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/manifest.l"
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/msg/Pose6D.l"
+  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/manifest.l"
+  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/msg/Pose6D.l"
   "CMakeFiles/SGGL_generate_messages_eus"
 )
 

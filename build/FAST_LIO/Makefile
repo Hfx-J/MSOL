@@ -1432,172 +1432,172 @@ fast_gicp/fast:
 .PHONY : fast_gicp/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/rule
+FAST_LIO/CMakeFiles/msol_generate_messages.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_generate_messages.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_generate_messages.dir/rule
 
 # Convenience name for target.
-SGGL_generate_messages: FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/rule
-.PHONY : SGGL_generate_messages
+msol_generate_messages: FAST_LIO/CMakeFiles/msol_generate_messages.dir/rule
+.PHONY : msol_generate_messages
 
 # fast build rule for target.
-SGGL_generate_messages/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/build
-.PHONY : SGGL_generate_messages/fast
+msol_generate_messages/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages.dir/build
+.PHONY : msol_generate_messages/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/rule
+FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/rule
 
 # Convenience name for target.
-_SGGL_generate_messages_check_deps_Pose6D: FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/rule
-.PHONY : _SGGL_generate_messages_check_deps_Pose6D
+_msol_generate_messages_check_deps_Pose6D: FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/rule
+.PHONY : _msol_generate_messages_check_deps_Pose6D
 
 # fast build rule for target.
-_SGGL_generate_messages_check_deps_Pose6D/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/build.make FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/build
-.PHONY : _SGGL_generate_messages_check_deps_Pose6D/fast
+_msol_generate_messages_check_deps_Pose6D/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/build.make FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/build
+.PHONY : _msol_generate_messages_check_deps_Pose6D/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/rule
+FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-SGGL_generate_messages_cpp: FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/rule
-.PHONY : SGGL_generate_messages_cpp
+msol_generate_messages_cpp: FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/rule
+.PHONY : msol_generate_messages_cpp
 
 # fast build rule for target.
-SGGL_generate_messages_cpp/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/build
-.PHONY : SGGL_generate_messages_cpp/fast
+msol_generate_messages_cpp/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/build
+.PHONY : msol_generate_messages_cpp/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_gencpp.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_gencpp.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_gencpp.dir/rule
+FAST_LIO/CMakeFiles/msol_gencpp.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_gencpp.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_gencpp.dir/rule
 
 # Convenience name for target.
-SGGL_gencpp: FAST_LIO/CMakeFiles/SGGL_gencpp.dir/rule
-.PHONY : SGGL_gencpp
+msol_gencpp: FAST_LIO/CMakeFiles/msol_gencpp.dir/rule
+.PHONY : msol_gencpp
 
 # fast build rule for target.
-SGGL_gencpp/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_gencpp.dir/build.make FAST_LIO/CMakeFiles/SGGL_gencpp.dir/build
-.PHONY : SGGL_gencpp/fast
+msol_gencpp/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_gencpp.dir/build.make FAST_LIO/CMakeFiles/msol_gencpp.dir/build
+.PHONY : msol_gencpp/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/rule
+FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-SGGL_generate_messages_eus: FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/rule
-.PHONY : SGGL_generate_messages_eus
+msol_generate_messages_eus: FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/rule
+.PHONY : msol_generate_messages_eus
 
 # fast build rule for target.
-SGGL_generate_messages_eus/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/build
-.PHONY : SGGL_generate_messages_eus/fast
+msol_generate_messages_eus/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/build
+.PHONY : msol_generate_messages_eus/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_geneus.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_geneus.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_geneus.dir/rule
+FAST_LIO/CMakeFiles/msol_geneus.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_geneus.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_geneus.dir/rule
 
 # Convenience name for target.
-SGGL_geneus: FAST_LIO/CMakeFiles/SGGL_geneus.dir/rule
-.PHONY : SGGL_geneus
+msol_geneus: FAST_LIO/CMakeFiles/msol_geneus.dir/rule
+.PHONY : msol_geneus
 
 # fast build rule for target.
-SGGL_geneus/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_geneus.dir/build.make FAST_LIO/CMakeFiles/SGGL_geneus.dir/build
-.PHONY : SGGL_geneus/fast
+msol_geneus/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_geneus.dir/build.make FAST_LIO/CMakeFiles/msol_geneus.dir/build
+.PHONY : msol_geneus/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/rule
+FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-SGGL_generate_messages_lisp: FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/rule
-.PHONY : SGGL_generate_messages_lisp
+msol_generate_messages_lisp: FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/rule
+.PHONY : msol_generate_messages_lisp
 
 # fast build rule for target.
-SGGL_generate_messages_lisp/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/build
-.PHONY : SGGL_generate_messages_lisp/fast
+msol_generate_messages_lisp/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/build
+.PHONY : msol_generate_messages_lisp/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_genlisp.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_genlisp.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_genlisp.dir/rule
+FAST_LIO/CMakeFiles/msol_genlisp.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_genlisp.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_genlisp.dir/rule
 
 # Convenience name for target.
-SGGL_genlisp: FAST_LIO/CMakeFiles/SGGL_genlisp.dir/rule
-.PHONY : SGGL_genlisp
+msol_genlisp: FAST_LIO/CMakeFiles/msol_genlisp.dir/rule
+.PHONY : msol_genlisp
 
 # fast build rule for target.
-SGGL_genlisp/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_genlisp.dir/build.make FAST_LIO/CMakeFiles/SGGL_genlisp.dir/build
-.PHONY : SGGL_genlisp/fast
+msol_genlisp/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_genlisp.dir/build.make FAST_LIO/CMakeFiles/msol_genlisp.dir/build
+.PHONY : msol_genlisp/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/rule
+FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-SGGL_generate_messages_nodejs: FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/rule
-.PHONY : SGGL_generate_messages_nodejs
+msol_generate_messages_nodejs: FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/rule
+.PHONY : msol_generate_messages_nodejs
 
 # fast build rule for target.
-SGGL_generate_messages_nodejs/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/build
-.PHONY : SGGL_generate_messages_nodejs/fast
+msol_generate_messages_nodejs/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/build
+.PHONY : msol_generate_messages_nodejs/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/rule
+FAST_LIO/CMakeFiles/msol_gennodejs.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_gennodejs.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_gennodejs.dir/rule
 
 # Convenience name for target.
-SGGL_gennodejs: FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/rule
-.PHONY : SGGL_gennodejs
+msol_gennodejs: FAST_LIO/CMakeFiles/msol_gennodejs.dir/rule
+.PHONY : msol_gennodejs
 
 # fast build rule for target.
-SGGL_gennodejs/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/build.make FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/build
-.PHONY : SGGL_gennodejs/fast
+msol_gennodejs/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_gennodejs.dir/build.make FAST_LIO/CMakeFiles/msol_gennodejs.dir/build
+.PHONY : msol_gennodejs/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/rule
+FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/rule
 
 # Convenience name for target.
-SGGL_generate_messages_py: FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/rule
-.PHONY : SGGL_generate_messages_py
+msol_generate_messages_py: FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/rule
+.PHONY : msol_generate_messages_py
 
 # fast build rule for target.
-SGGL_generate_messages_py/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/build
-.PHONY : SGGL_generate_messages_py/fast
+msol_generate_messages_py/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/build
+.PHONY : msol_generate_messages_py/fast
 
 # Convenience name for target.
-FAST_LIO/CMakeFiles/SGGL_genpy.dir/rule:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/SGGL_genpy.dir/rule
-.PHONY : FAST_LIO/CMakeFiles/SGGL_genpy.dir/rule
+FAST_LIO/CMakeFiles/msol_genpy.dir/rule:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAST_LIO/CMakeFiles/msol_genpy.dir/rule
+.PHONY : FAST_LIO/CMakeFiles/msol_genpy.dir/rule
 
 # Convenience name for target.
-SGGL_genpy: FAST_LIO/CMakeFiles/SGGL_genpy.dir/rule
-.PHONY : SGGL_genpy
+msol_genpy: FAST_LIO/CMakeFiles/msol_genpy.dir/rule
+.PHONY : msol_genpy
 
 # fast build rule for target.
-SGGL_genpy/fast:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_genpy.dir/build.make FAST_LIO/CMakeFiles/SGGL_genpy.dir/build
-.PHONY : SGGL_genpy/fast
+msol_genpy/fast:
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build && $(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_genpy.dir/build.make FAST_LIO/CMakeFiles/msol_genpy.dir/build
+.PHONY : msol_genpy/fast
 
 # Convenience name for target.
 FAST_LIO/CMakeFiles/helidar_place_v2.dir/rule:
@@ -1962,18 +1962,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... SGGL_gencpp"
-	@echo "... SGGL_generate_messages"
-	@echo "... SGGL_generate_messages_cpp"
-	@echo "... SGGL_generate_messages_eus"
-	@echo "... SGGL_generate_messages_lisp"
-	@echo "... SGGL_generate_messages_nodejs"
-	@echo "... SGGL_generate_messages_py"
-	@echo "... SGGL_geneus"
-	@echo "... SGGL_genlisp"
-	@echo "... SGGL_gennodejs"
-	@echo "... SGGL_genpy"
-	@echo "... _SGGL_generate_messages_check_deps_Pose6D"
+	@echo "... _msol_generate_messages_check_deps_Pose6D"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"
@@ -2005,6 +1994,17 @@ help:
 	@echo "... livox_ros_driver_generate_messages_lisp"
 	@echo "... livox_ros_driver_generate_messages_nodejs"
 	@echo "... livox_ros_driver_generate_messages_py"
+	@echo "... msol_gencpp"
+	@echo "... msol_generate_messages"
+	@echo "... msol_generate_messages_cpp"
+	@echo "... msol_generate_messages_eus"
+	@echo "... msol_generate_messages_lisp"
+	@echo "... msol_generate_messages_nodejs"
+	@echo "... msol_generate_messages_py"
+	@echo "... msol_geneus"
+	@echo "... msol_genlisp"
+	@echo "... msol_gennodejs"
+	@echo "... msol_genpy"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_lisp"

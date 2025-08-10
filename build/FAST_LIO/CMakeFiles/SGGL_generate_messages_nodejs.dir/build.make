@@ -66,15 +66,15 @@ include FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/compiler_depend.ma
 # Include the progress variables for this target.
 include FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/progress.make
 
-FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/SGGL/msg/Pose6D.js
+FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/msol/msg/Pose6D.js
 
-/home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/SGGL/msg/Pose6D.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/SGGL/msg/Pose6D.js: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from SGGL/Pose6D.msg"
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p SGGL -o /home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/SGGL/msg
+/home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/msol/msg/Pose6D.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/msol/msg/Pose6D.js: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from msol/Pose6D.msg"
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p msol -o /home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/msol/msg
 
 SGGL_generate_messages_nodejs: FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs
-SGGL_generate_messages_nodejs: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/SGGL/msg/Pose6D.js
+SGGL_generate_messages_nodejs: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/msol/msg/Pose6D.js
 SGGL_generate_messages_nodejs: FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/build.make
 .PHONY : SGGL_generate_messages_nodejs
 

@@ -67,7 +67,7 @@ include FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/compil
 include FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/progress.make
 
 FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D:
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py SGGL /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg 
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msol /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg 
 
 _SGGL_generate_messages_check_deps_Pose6D: FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D
 _SGGL_generate_messages_check_deps_Pose6D: FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/build.make

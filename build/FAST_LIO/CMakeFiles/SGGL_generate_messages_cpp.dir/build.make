@@ -66,16 +66,16 @@ include FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/progress.make
 
-FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp: /home/beabbit/study_space/HL_BPR/MSOL/devel/include/SGGL/Pose6D.h
+FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp: /home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol/Pose6D.h
 
-/home/beabbit/study_space/HL_BPR/MSOL/devel/include/SGGL/Pose6D.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/beabbit/study_space/HL_BPR/MSOL/devel/include/SGGL/Pose6D.h: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
-/home/beabbit/study_space/HL_BPR/MSOL/devel/include/SGGL/Pose6D.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from SGGL/Pose6D.msg"
-	cd /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO && /home/beabbit/study_space/HL_BPR/MSOL/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p SGGL -o /home/beabbit/study_space/HL_BPR/MSOL/devel/include/SGGL -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol/Pose6D.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol/Pose6D.h: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
+/home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol/Pose6D.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from msol/Pose6D.msg"
+	cd /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO && /home/beabbit/study_space/HL_BPR/MSOL/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p msol -o /home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol -e /opt/ros/noetic/share/gencpp/cmake/..
 
 SGGL_generate_messages_cpp: FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp
-SGGL_generate_messages_cpp: /home/beabbit/study_space/HL_BPR/MSOL/devel/include/SGGL/Pose6D.h
+SGGL_generate_messages_cpp: /home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol/Pose6D.h
 SGGL_generate_messages_cpp: FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/build.make
 .PHONY : SGGL_generate_messages_cpp
 

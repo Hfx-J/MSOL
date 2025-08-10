@@ -1459,160 +1459,160 @@ fast_gicp/fast:
 .PHONY : fast_gicp/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_generate_messages
+# Target rules for targets named msol_generate_messages
 
 # Build rule for target.
-SGGL_generate_messages: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_generate_messages
-.PHONY : SGGL_generate_messages
+msol_generate_messages: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_generate_messages
+.PHONY : msol_generate_messages
 
 # fast build rule for target.
-SGGL_generate_messages/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages.dir/build
-.PHONY : SGGL_generate_messages/fast
+msol_generate_messages/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages.dir/build
+.PHONY : msol_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named _SGGL_generate_messages_check_deps_Pose6D
+# Target rules for targets named _msol_generate_messages_check_deps_Pose6D
 
 # Build rule for target.
-_SGGL_generate_messages_check_deps_Pose6D: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _SGGL_generate_messages_check_deps_Pose6D
-.PHONY : _SGGL_generate_messages_check_deps_Pose6D
+_msol_generate_messages_check_deps_Pose6D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _msol_generate_messages_check_deps_Pose6D
+.PHONY : _msol_generate_messages_check_deps_Pose6D
 
 # fast build rule for target.
-_SGGL_generate_messages_check_deps_Pose6D/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/build.make FAST_LIO/CMakeFiles/_SGGL_generate_messages_check_deps_Pose6D.dir/build
-.PHONY : _SGGL_generate_messages_check_deps_Pose6D/fast
+_msol_generate_messages_check_deps_Pose6D/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/build.make FAST_LIO/CMakeFiles/_msol_generate_messages_check_deps_Pose6D.dir/build
+.PHONY : _msol_generate_messages_check_deps_Pose6D/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_generate_messages_cpp
+# Target rules for targets named msol_generate_messages_cpp
 
 # Build rule for target.
-SGGL_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_generate_messages_cpp
-.PHONY : SGGL_generate_messages_cpp
+msol_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_generate_messages_cpp
+.PHONY : msol_generate_messages_cpp
 
 # fast build rule for target.
-SGGL_generate_messages_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_cpp.dir/build
-.PHONY : SGGL_generate_messages_cpp/fast
+msol_generate_messages_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_cpp.dir/build
+.PHONY : msol_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_gencpp
+# Target rules for targets named msol_gencpp
 
 # Build rule for target.
-SGGL_gencpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_gencpp
-.PHONY : SGGL_gencpp
+msol_gencpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_gencpp
+.PHONY : msol_gencpp
 
 # fast build rule for target.
-SGGL_gencpp/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_gencpp.dir/build.make FAST_LIO/CMakeFiles/SGGL_gencpp.dir/build
-.PHONY : SGGL_gencpp/fast
+msol_gencpp/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_gencpp.dir/build.make FAST_LIO/CMakeFiles/msol_gencpp.dir/build
+.PHONY : msol_gencpp/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_generate_messages_eus
+# Target rules for targets named msol_generate_messages_eus
 
 # Build rule for target.
-SGGL_generate_messages_eus: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_generate_messages_eus
-.PHONY : SGGL_generate_messages_eus
+msol_generate_messages_eus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_generate_messages_eus
+.PHONY : msol_generate_messages_eus
 
 # fast build rule for target.
-SGGL_generate_messages_eus/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/build
-.PHONY : SGGL_generate_messages_eus/fast
+msol_generate_messages_eus/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_eus.dir/build
+.PHONY : msol_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_geneus
+# Target rules for targets named msol_geneus
 
 # Build rule for target.
-SGGL_geneus: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_geneus
-.PHONY : SGGL_geneus
+msol_geneus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_geneus
+.PHONY : msol_geneus
 
 # fast build rule for target.
-SGGL_geneus/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_geneus.dir/build.make FAST_LIO/CMakeFiles/SGGL_geneus.dir/build
-.PHONY : SGGL_geneus/fast
+msol_geneus/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_geneus.dir/build.make FAST_LIO/CMakeFiles/msol_geneus.dir/build
+.PHONY : msol_geneus/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_generate_messages_lisp
+# Target rules for targets named msol_generate_messages_lisp
 
 # Build rule for target.
-SGGL_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_generate_messages_lisp
-.PHONY : SGGL_generate_messages_lisp
+msol_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_generate_messages_lisp
+.PHONY : msol_generate_messages_lisp
 
 # fast build rule for target.
-SGGL_generate_messages_lisp/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_lisp.dir/build
-.PHONY : SGGL_generate_messages_lisp/fast
+msol_generate_messages_lisp/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_lisp.dir/build
+.PHONY : msol_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_genlisp
+# Target rules for targets named msol_genlisp
 
 # Build rule for target.
-SGGL_genlisp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_genlisp
-.PHONY : SGGL_genlisp
+msol_genlisp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_genlisp
+.PHONY : msol_genlisp
 
 # fast build rule for target.
-SGGL_genlisp/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_genlisp.dir/build.make FAST_LIO/CMakeFiles/SGGL_genlisp.dir/build
-.PHONY : SGGL_genlisp/fast
+msol_genlisp/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_genlisp.dir/build.make FAST_LIO/CMakeFiles/msol_genlisp.dir/build
+.PHONY : msol_genlisp/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_generate_messages_nodejs
+# Target rules for targets named msol_generate_messages_nodejs
 
 # Build rule for target.
-SGGL_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_generate_messages_nodejs
-.PHONY : SGGL_generate_messages_nodejs
+msol_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_generate_messages_nodejs
+.PHONY : msol_generate_messages_nodejs
 
 # fast build rule for target.
-SGGL_generate_messages_nodejs/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_nodejs.dir/build
-.PHONY : SGGL_generate_messages_nodejs/fast
+msol_generate_messages_nodejs/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_nodejs.dir/build
+.PHONY : msol_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_gennodejs
+# Target rules for targets named msol_gennodejs
 
 # Build rule for target.
-SGGL_gennodejs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_gennodejs
-.PHONY : SGGL_gennodejs
+msol_gennodejs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_gennodejs
+.PHONY : msol_gennodejs
 
 # fast build rule for target.
-SGGL_gennodejs/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/build.make FAST_LIO/CMakeFiles/SGGL_gennodejs.dir/build
-.PHONY : SGGL_gennodejs/fast
+msol_gennodejs/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_gennodejs.dir/build.make FAST_LIO/CMakeFiles/msol_gennodejs.dir/build
+.PHONY : msol_gennodejs/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_generate_messages_py
+# Target rules for targets named msol_generate_messages_py
 
 # Build rule for target.
-SGGL_generate_messages_py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_generate_messages_py
-.PHONY : SGGL_generate_messages_py
+msol_generate_messages_py: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_generate_messages_py
+.PHONY : msol_generate_messages_py
 
 # fast build rule for target.
-SGGL_generate_messages_py/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/build.make FAST_LIO/CMakeFiles/SGGL_generate_messages_py.dir/build
-.PHONY : SGGL_generate_messages_py/fast
+msol_generate_messages_py/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/build.make FAST_LIO/CMakeFiles/msol_generate_messages_py.dir/build
+.PHONY : msol_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named SGGL_genpy
+# Target rules for targets named msol_genpy
 
 # Build rule for target.
-SGGL_genpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SGGL_genpy
-.PHONY : SGGL_genpy
+msol_genpy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msol_genpy
+.PHONY : msol_genpy
 
 # fast build rule for target.
-SGGL_genpy/fast:
-	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/SGGL_genpy.dir/build.make FAST_LIO/CMakeFiles/SGGL_genpy.dir/build
-.PHONY : SGGL_genpy/fast
+msol_genpy/fast:
+	$(MAKE) $(MAKESILENT) -f FAST_LIO/CMakeFiles/msol_genpy.dir/build.make FAST_LIO/CMakeFiles/msol_genpy.dir/build
+.PHONY : msol_genpy/fast
 
 #=============================================================================
 # Target rules for targets named helidar_place_v2
@@ -1640,18 +1640,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... SGGL_gencpp"
-	@echo "... SGGL_generate_messages"
-	@echo "... SGGL_generate_messages_cpp"
-	@echo "... SGGL_generate_messages_eus"
-	@echo "... SGGL_generate_messages_lisp"
-	@echo "... SGGL_generate_messages_nodejs"
-	@echo "... SGGL_generate_messages_py"
-	@echo "... SGGL_geneus"
-	@echo "... SGGL_genlisp"
-	@echo "... SGGL_gennodejs"
-	@echo "... SGGL_genpy"
-	@echo "... _SGGL_generate_messages_check_deps_Pose6D"
+	@echo "... _msol_generate_messages_check_deps_Pose6D"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"
@@ -1686,6 +1675,17 @@ help:
 	@echo "... livox_ros_driver_generate_messages_lisp"
 	@echo "... livox_ros_driver_generate_messages_nodejs"
 	@echo "... livox_ros_driver_generate_messages_py"
+	@echo "... msol_gencpp"
+	@echo "... msol_generate_messages"
+	@echo "... msol_generate_messages_cpp"
+	@echo "... msol_generate_messages_eus"
+	@echo "... msol_generate_messages_lisp"
+	@echo "... msol_generate_messages_nodejs"
+	@echo "... msol_generate_messages_py"
+	@echo "... msol_geneus"
+	@echo "... msol_genlisp"
+	@echo "... msol_gennodejs"
+	@echo "... msol_genpy"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_lisp"

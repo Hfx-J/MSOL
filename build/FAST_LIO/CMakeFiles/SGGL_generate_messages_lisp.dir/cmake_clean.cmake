@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/common-lisp/ros/SGGL/msg/Pose6D.lisp"
+  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/common-lisp/ros/msol/msg/Pose6D.lisp"
   "CMakeFiles/SGGL_generate_messages_lisp"
 )
 

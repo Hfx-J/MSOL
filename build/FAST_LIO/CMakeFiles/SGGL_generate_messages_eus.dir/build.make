@@ -66,21 +66,21 @@ include FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/compiler_depend.make
 # Include the progress variables for this target.
 include FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/progress.make
 
-FAST_LIO/CMakeFiles/SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/msg/Pose6D.l
-FAST_LIO/CMakeFiles/SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/manifest.l
+FAST_LIO/CMakeFiles/SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/msg/Pose6D.l
+FAST_LIO/CMakeFiles/SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/manifest.l
 
-/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for SGGL"
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL SGGL geometry_msgs
+/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for msol"
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol msol geometry_msgs
 
-/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/msg/Pose6D.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/msg/Pose6D.l: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from SGGL/Pose6D.msg"
-	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p SGGL -o /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/msg
+/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/msg/Pose6D.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/msg/Pose6D.l: /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/beabbit/study_space/HL_BPR/MSOL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from msol/Pose6D.msg"
+	cd /home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg/Pose6D.msg -ISGGL:/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p msol -o /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/msg
 
 SGGL_generate_messages_eus: FAST_LIO/CMakeFiles/SGGL_generate_messages_eus
-SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/manifest.l
-SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/SGGL/msg/Pose6D.l
+SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/manifest.l
+SGGL_generate_messages_eus: /home/beabbit/study_space/HL_BPR/MSOL/devel/share/roseus/ros/msol/msg/Pose6D.l
 SGGL_generate_messages_eus: FAST_LIO/CMakeFiles/SGGL_generate_messages_eus.dir/build.make
 .PHONY : SGGL_generate_messages_eus
 

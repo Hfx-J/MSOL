@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10.0)
-project(SGGL)
+project(msol)
 
 #SET(CMAKE_BUILD_TYPE "Debug")
 set(CMAKE_BUILD_TYPE "Release")
@@ -43,7 +43,7 @@ find_package(OpenMP QUIET)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}   ${OpenMP_C_FLAGS}")
 include_directories(
-  /home/beabbit/study_space/SGGL/Sophus
+  /home/beabbit/study_space/HL_BPR/MSOL/Sophus
 )
 include_directories(
   /home/beabbit/anaconda3/lib/python3.9/site-packages/numpy/core/include

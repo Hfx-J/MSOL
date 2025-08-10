@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/SGGL/msg/Pose6D.js"
+  "/home/beabbit/study_space/HL_BPR/MSOL/devel/share/gennodejs/ros/msol/msg/Pose6D.js"
   "CMakeFiles/SGGL_generate_messages_nodejs"
 )
 

@@ -901,6 +901,15 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
+//Value Computed by CMake
+msol_BINARY_DIR:STATIC=/home/beabbit/study_space/HL_BPR/MSOL/build/FAST_LIO
+
+//Value Computed by CMake
+msol_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+msol_SOURCE_DIR:STATIC=/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO
+
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
