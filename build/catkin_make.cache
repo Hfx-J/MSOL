@@ -1,0 +1,2 @@
+FAST_LIO
+-DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/beabbit/study_space/HL_BPR/MSOL/devel -DCMAKE_INSTALL_PREFIX=/home/beabbit/study_space/HL_BPR/MSOL/install -G Unix Makefiles

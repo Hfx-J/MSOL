@@ -1,0 +1,2 @@
+set(SGGL_MESSAGE_FILES "msg/Pose6D.msg")
+set(SGGL_SERVICE_FILES "")

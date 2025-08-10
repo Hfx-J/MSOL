@@ -1,0 +1,54 @@
+load_file:
+    file_path: "/media/beabbit/T5 EVO/bag/rosbag_/HeliPR/"
+    query_dataset: "DCC05"
+    query_type: "Ouster"  # Livox: Avia Aeva:Aeva Ouster:Ouster Velodyne:Velodyne Roundabout02
+    map_dataset: "DCC04"
+    map_type: "Ouster"
+
+
+# CLD:
+#     sector_num: 48
+#     max_range: 30.0f
+#     min_points: 1
+#     cld_table: [0,-1,2]
+
+# HL_BPR:
+#     step: 10
+#     num_threads: 24
+#     num_neighbors: 20
+#     max_iterations: 10    
+#     leaf_size: 0.25
+#     z_max: 15
+#     z_min: -1
+#     x_max: 40
+#     x_min: -40
+#     y_max: 40
+#     y_min: -40
+
+# overlap:
+#     distance_threshold: 0.5
+#     overlap_threshold: 0.3
+#Helipr
+CLD:
+    sector_num: 48
+    max_range: 55.0f
+    min_points: 3
+    cld_table: [0,-1,2]
+
+HL_BPR:
+    step: 10
+    num_threads: 24
+    num_neighbors: 20
+    max_iterations: 10    
+    leaf_size: 2
+    z_max: 15
+    z_min: -1
+    x_max: 50
+    x_min: -50
+    y_max: 50
+    y_min: -50
+
+overlap:
+    distance_threshold: 2.0
+    overlap_threshold: 0.6
+
