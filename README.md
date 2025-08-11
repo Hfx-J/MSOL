@@ -35,7 +35,7 @@ source ./devel/setup.bash
 roslaunch msol heliplace_v2.launch
 ```
 ### DataSet
-We provide a example dataset in [BaiDuDrive]([https://pan.baidu.com/s/1WVywzNPgzUt4VT0o5HGHhQ?pwd=f5i5]).
+We provide a example dataset in [BaiDuDrive](https://pan.baidu.com/s/1WVywzNPgzUt4VT0o5HGHhQ?pwd=f5i5).
 ### Citation
 
 If you find our work useful in your research, please consider citing:
