@@ -47,5 +47,5 @@ If you find our work useful in your research, please consider citing:
 
 ### Contact
 
-For any questions or issues regarding SGTD, please open an issue on GitHub.
+For any questions or issues regarding MSOL, please open an issue on GitHub.
 
