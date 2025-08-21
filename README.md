@@ -41,7 +41,16 @@ We provide a example dataset in [BaiDuDrive](https://pan.baidu.com/s/1WVywzNPgzU
 If you find our work useful in your research, please consider citing:
 
 ```
-
+@ARTICLE{11122650,
+  author={Gao, Wang and Huang, Feixuan and Liu, Hong and Pan, Shuguo and Zhao, Heng},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Multi-Sector Overlap Loss: A Universal Framework for One-Shot 6DoF Global Localization Across Heterogeneous LiDARs}, 
+  year={2025},
+  volume={10},
+  number={10},
+  pages={9862-9869},
+  keywords={Laser radar;Location awareness;Point cloud compression;Semantics;Accuracy;Pose estimation;Windows;Data mining;Computational modeling;Training;Localization;SLAM;heterogeneous LiDAR;cylindrical coordinate;overlap loss strategy},
+  doi={10.1109/LRA.2025.3597891}}
 
 ```
 
