@@ -40,7 +40,7 @@
 #include <nlohmann/json.hpp>
 #include "lapjav.hpp"
 #include "linear_sum_assignment.hpp"
-#include "ssc.h"
+// #include "ssc.h"
 #ifdef USE_VGICP_CUDA
 #include <fast_gicp/ndt/ndt_cuda.hpp>
 #include <fast_gicp/gicp/fast_vgicp_cuda.hpp>

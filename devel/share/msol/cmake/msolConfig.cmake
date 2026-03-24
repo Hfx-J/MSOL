@@ -67,14 +67,14 @@ set(msol_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(msol_SOURCE_PREFIX /home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO)
-  set(msol_DEVEL_PREFIX /home/beabbit/study_space/HL_BPR/MSOL/devel)
+  set(msol_SOURCE_PREFIX /home/beabbit/study_space/HL_BPR/hjy/MSOL/src/FAST_LIO)
+  set(msol_DEVEL_PREFIX /home/beabbit/study_space/HL_BPR/hjy/MSOL/devel)
   set(msol_INSTALL_PREFIX "")
   set(msol_PREFIX ${msol_DEVEL_PREFIX})
 else()
   set(msol_SOURCE_PREFIX "")
   set(msol_DEVEL_PREFIX "")
-  set(msol_INSTALL_PREFIX /home/beabbit/study_space/HL_BPR/MSOL/install)
+  set(msol_INSTALL_PREFIX /home/beabbit/study_space/HL_BPR/hjy/MSOL/install)
   set(msol_PREFIX ${msol_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(msol_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/beabbit/study_space/HL_BPR/MSOL/devel/include;/usr/include/eigen3;/usr/include/pcl-1.10;/home/beabbit/anaconda3/include;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include;/usr/include/x86_64-linux-gnu;/usr/include/ni;/usr/include/openni2 " STREQUAL " ")
+if(NOT "/home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/include;/usr/include/eigen3;/usr/include/pcl-1.10;/home/beabbit/anaconda3/include;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include;/usr/include/x86_64-linux-gnu;/usr/include/ni;/usr/include/openni2 " STREQUAL " ")
   set(msol_INCLUDE_DIRS "")
-  set(_include_dirs "/home/beabbit/study_space/HL_BPR/MSOL/devel/include;/usr/include/eigen3;/usr/include/pcl-1.10;/home/beabbit/anaconda3/include;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include;/usr/include/x86_64-linux-gnu;/usr/include/ni;/usr/include/openni2")
+  set(_include_dirs "/home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/include;/usr/include/eigen3;/usr/include/pcl-1.10;/home/beabbit/anaconda3/include;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include;/usr/include/x86_64-linux-gnu;/usr/include/ni;/usr/include/openni2")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/beabbit/study_space/HL_BPR/MSOL/devel/include;/usr/include/eigen3;
         message(FATAL_ERROR "Project 'msol' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'msol' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/beabbit/study_space/HL_BPR/MSOL/src/FAST_LIO/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'msol' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/beabbit/study_space/HL_BPR/hjy/MSOL/src/FAST_LIO/${idir}'.  ${_report}")
     endif()
     _list_append_unique(msol_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/beabbit/study_space/HL_BPR/MSOL/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

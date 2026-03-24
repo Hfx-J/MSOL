@@ -1,4 +1,4 @@
-prefix=/home/beabbit/study_space/HL_BPR/MSOL/install
+prefix=/home/beabbit/study_space/HL_BPR/hjy/MSOL/install
 
 Name: msol
 Description: Description of msol

@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/beabbit/study_space/HL_BPR/MSOL/devel/env.sh')
+code = generate_environment_script('/home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/env.sh')
 
-output_filename = '/home/beabbit/study_space/HL_BPR/MSOL/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/beabbit/study_space/HL_BPR/hjy/MSOL/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

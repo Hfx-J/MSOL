@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10.0)
+cmake_minimum_required(VERSION 3.5.0)
 project(msol)
 
 #SET(CMAKE_BUILD_TYPE "Debug")
@@ -213,7 +213,16 @@ if(BUILD_VGICP_CUDA)
   endif()
 
   endif()
-
+# ========== Loop Closure Example ==========
+add_executable(loop_closure_example src/loop_closure_example.cpp)
+target_link_libraries(loop_closure_example
+    ${catkin_LIBRARIES}
+    ${PCL_LIBRARIES}
+    fast_gicp      # 你工程里已有的 fast_gicp target
+)
+target_include_directories(loop_closure_example PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
 # add_executable(helidar_place src/HL_BPR.cpp ) 
 # target_link_libraries(helidar_place ${catkin_LIBRARIES}  ${PCL_LIBRARIES} ${PYTHON_LIBRARIES} teaserpp::teaser_registration teaserpp::teaser_io yaml-cpp ${Boost_LIBRARIES} nlohmann_json pmc fast_gicp ${OpenCV_LIBS}) 
 # target_include_directories(helidar_place PRIVATE ${PYTHON_INCLUDE_DIRS} )

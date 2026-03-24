@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/include/msol/Pose6D.h"
+  "/home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/include/msol/Pose6D.h"
   "CMakeFiles/msol_generate_messages_cpp"
 )
 

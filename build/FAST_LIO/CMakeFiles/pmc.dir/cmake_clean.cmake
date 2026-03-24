@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/libpmc.pdb"
-  "/home/beabbit/study_space/HL_BPR/MSOL/devel/lib/libpmc.so"
+  "/home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/lib/libpmc.pdb"
+  "/home/beabbit/study_space/HL_BPR/hjy/MSOL/devel/lib/libpmc.so"
   "CMakeFiles/pmc.dir/src/pmc/pmc_clique_utils.cpp.o"
   "CMakeFiles/pmc.dir/src/pmc/pmc_clique_utils.cpp.o.d"
   "CMakeFiles/pmc.dir/src/pmc/pmc_cores.cpp.o"
